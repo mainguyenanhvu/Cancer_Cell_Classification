@@ -34,8 +34,10 @@ def watershed_lab(image, marker=None, rm_border=False):
     # Nuclei Detection and Segmentation
     # Using OpenCV2 to spot the seeds of the nuclei, then pass the seed to
     # elevation_map and perform watershed
+    # 
     gray = cv.cvtColor(image, cv.COLOR_BGR2GRAY)
     imagem = cv.bitwise_not(gray)
+    # lọc ngưỡng nhị phân và ngưỡng otsu
     ret, thresh = cv.threshold(imagem, 0, 255, cv.THRESH_BINARY_INV + cv.THRESH_OTSU)
 
     # noise removal
