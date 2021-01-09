@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Thu Mar  1 12:52:38 2018
+
 #seg_2-3: region = 2000, crowd
 #seg_2-4: region = 20000, sparse
 #seg_4:   region = 20000, sparse
@@ -9,7 +9,7 @@ Created on Thu Mar  1 12:52:38 2018
 #seg_5:
 #seg_6: swap mi and org
 #seg_7: rework watershed :)
-@author: lucis_k
+
 """
 import numpy as np
 import matplotlib.pyplot as plt
@@ -95,7 +95,7 @@ for index, imgpath in enumerate(nuclei):
     mask = np.in1d(labels, border_indice).reshape(labels.shape)
     labels[mask] = 0
 
-    # Cut boundingbox
+    # Cut boundingbox: check 
     i = 0
     for region in skimage.measure.regionprops(labels):
         i = i + 1
