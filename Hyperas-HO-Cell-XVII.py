@@ -96,6 +96,7 @@ def create_model(train_generator, int_val_generator):
     model.compile(loss='categorical_crossentropy',
                   optimizer=adam,
                   metrics=['accuracy'])
+    # ý nghĩa sử dụng TensorBoard ???
     callback_log = TensorBoard(log_dir=log_dir,
                                histogram_freq=0,
                                batch_size=batch_size,
