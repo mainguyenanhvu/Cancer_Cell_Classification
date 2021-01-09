@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-@author: lucis_k
+
 """
 import os
 from skimage.filters import threshold_otsu, gaussian, sobel
