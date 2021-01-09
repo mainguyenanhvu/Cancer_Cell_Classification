@@ -7,7 +7,7 @@ Created on Thu Mar  1 12:52:38 2018
 #seg_4:   region = 20000, sparse
 #seg_2-4: region = 20000, crowd
 #seg_5:
-@author: trangle
+
 """
 import numpy as np
 import matplotlib.pyplot as plt
