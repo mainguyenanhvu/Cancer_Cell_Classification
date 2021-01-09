@@ -11,7 +11,7 @@ import numpy
 from keras import backend as K
 import math
 from keras import initializers
-
+# Các version tương ứng với việc điều chỉnh tham số của mô hình classifier
 #IX : Batch, ReLu, Dropout = 0.25
 #XI: Batch, ELu, Dropout = 0.25
 #XII: BED(0.1)
