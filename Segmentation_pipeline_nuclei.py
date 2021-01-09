@@ -1,13 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Thu Mar  1 12:52:38 2018
-Last Change: 21/05/2018 14:16
 
-@author: trangle
-
-Modified by:
-@author: cwinsnes
 
 """
 import click
