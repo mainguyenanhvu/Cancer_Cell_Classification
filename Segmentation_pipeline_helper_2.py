@@ -1,7 +1,12 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-
+# Note
+# Threshold ngưỡng ảnh
+# Sobel thuật toán phát hiện biên ảnh
+# Erosion, Dilate có thể phát triển vùng, co vùng 
+# Substract trừ ảnh
+# Bitwise : and, or, nor, xor
 """
 import os
 from skimage.filters import threshold_otsu, gaussian, sobel
