@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 """
 # Note
-# Threshold ngưỡng ảnh
-# Sobel thuật toán phát hiện biên ảnh
+# Threshold ngưỡng màu dùng để chia hình thành 2 loại vùng: đen - trắng
+# Sobel thuật toán phát hiện đường viền (biên) của đối tượng trong 1 hình ảnh
 # Erosion, Dilate có thể phát triển vùng, co vùng 
 # Substract trừ ảnh
 # Bitwise : and, or, nor, xor
