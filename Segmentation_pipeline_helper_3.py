@@ -1,6 +1,10 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
+# Note
+# Threshold ngưỡng ảnh
+# Sobel thuật toán phát hiện biên ảnh
+# Erosion, Dilate có thể phát triển vùng, co vùng 
 
 """
 import os
