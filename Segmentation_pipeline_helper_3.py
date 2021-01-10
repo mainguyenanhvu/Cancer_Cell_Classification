@@ -5,6 +5,8 @@
 # Threshold ngưỡng ảnh
 # Sobel thuật toán phát hiện biên ảnh
 # Erosion, Dilate có thể phát triển vùng, co vùng 
+# Substract trừ ảnh
+# Bitwise : and, or, nor, xor
 
 """
 import os
